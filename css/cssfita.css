@@ -1,0 +1,101 @@
+@font-face {
+    font-family: font;
+    src: url(../css/font/Lato-Heavy.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../font/Mario-Kart-DS.ttf);
+}
+@font-face {
+    font-family: Cyberspace;
+    src: url(../css/font/Cyberspace\ Raceway.otf);
+}
+@font-face {
+    font-family: VCR;
+    src: url(../css/font/VCRosdNEUE.ttf);
+}
+.ev, body, main{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(../css/img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    align-items: center;
+}
+nav{
+    background: linear-gradient(to right, #f1592a,#fc7d34);
+}
+.bn, .botao, .link{
+    width: 100%;
+    text-align: center;
+}
+.botao{
+    padding: 10px 0px;
+}
+.link{
+    font-family: VCR;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+a
+{
+    color:rgb(226, 226, 226);
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover
+{
+    color: #3d3d3d;
+}
+.historia, .sobre, .mais
+{
+    /*scroll-behavior: smooth;*/
+}
+.gif
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.gif1
+{
+    width: 40vw;
+}
+#gif
+{
+    display: flex;
+    width: 40vw;
+}
+.titulo
+{
+    background: linear-gradient(#6e1a9e, #f1592a );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    font-family: Cyberspace;
+    text-align: center;
+    font-style: italic;
+}
+.conteudo
+{
+    color: #251e1e;
+    font-size: 20px;
+    margin: 0px 10%;
+    font-family: font;
+    text-align: center;
+    justify-content: center;
+}
+footer
+{
+    display: flex;
+    justify-content: end;
+}
